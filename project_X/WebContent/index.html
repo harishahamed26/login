@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>First Page</title>
+   <script  src="index.js"></script>
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="cotn_principal">
+<div class="cont_centrar">
+
+  <div class="cont_login">
+<div class="cont_info_log_sign_up">
+      <div class="col_md_login">
+<div class="cont_ba_opcitiy">
+        
+        <h2>LOGIN</h2>  
+   
+  <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+  </div>
+  </div>
+<div class="col_md_sign_up">
+<div class="cont_ba_opcitiy">
+  <h2>SIGN UP</h2>
+
+  
+  
+
+  <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+</div>
+  </div>
+       </div>
+
+    
+ 
+ <div class="cont_form_login">
+<a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+   <h2>LOGIN</h2>
+  <form method="post" action="login"> 
+  <input type="text" placeholder="Email" name="login_email"/><br>
+<input type="password" placeholder="Password" name="login_pass" /><br>
+<input type="submit" class="btn_login" onclick="cambiar_login()" value="LOGIN"/>
+</form>
+  </div>
+  
+   <div class="cont_form_sign_up">
+<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+     <h2>SIGN UP</h2>
+     <form method="post" action="register"><br>
+<input type="text" placeholder="Name" name="user_name"/><br>
+<input type="text" placeholder="Email" name="mail"/><br>
+<input type="password" placeholder="Password" name="user_pass"/><br>
+<input type="submit" class="btn_sign_up" onclick="cambiar_sign_up()" value="REGISTER"/>
+</form>
+  </div>
+
+    </div>
+    
+  </div>
+ </div>
+</div>
+</body>
+
+</html>
